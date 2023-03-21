@@ -1,71 +1,183 @@
 Body{
-    background-color: darksalmon;
-    text-align: center;
-    margin: 0px auto;
+    background-color: rgb(15, 14, 14);
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    font-size: 60px;
+.topo{
+    background-image: url(imagens/capa\ de\ fundo\ slogan\ pamela.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100%;
+    min-height: 800px;
+    background-size: cover;
+    padding: 200px;
+    box-sizing: border-box;
+     }
+
+ h1{
+    font-size: 40px;
     font-family: cursive;
     font-weight: 900;
-    color: black;
-    padding: 40px ;
-    border-bottom: 10px solid black;
-}
-h2{ 
-    font-size: 25px;
-    font-family: Arial;
+    color: rgb(7, 7, 7);
     text-align: center;
+    width: 600px;
+    margin: 0px auto;
+    border: 10px solid saddlebrown;
+    background-color: sandybrown;
+    border-radius: 80px 0px 80px 0px;
+    }
+
+.contato {
+        position: fixed;
+        height: 40px;
+        width: 150px;
+        background-color: rgb(84, 202, 30);
+        top: 500px;
+        bottom:60px;
+        left: 1100px;
+        right: 100px;
+        border: 5px solid black;
+        padding: 5px;
+        text-align: center;
+        border-radius: 80px;
+         }
+
+a {
+    font-size: 22px;
     font-weight: 900;
-
-}
-
-div {
-    margin: 100px auto; 
-    height: 400px;
-    width: 400px;
-    border: 10px solid rgb(207, 57, 57);
-    padding-bottom: 300px;
-    padding-left: 160px;
-    padding-right: 160px;
-    padding-top: 30px;
-    border-radius: 160px 0px 160px 0px;
-    background-color: darkolivegreen;
-}
-h3{
-    font-size: 21px;
-    font-family: verdana;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    text-decoration: underline;
-    color: black;
-    text-align: center;
-}
- 
-p{
-    font-size: 18px;
-    font-family: Arial;
-    font-style: italic;
-    text-align: justify;
-    color: black;
-}
-span{
-    font-size: 19px;
-    font-weight: 900;
-    font-family: Arial
-}
-
-img{ 
-    border: 10px solid chocolate;
-    margin-bottom: 30px;
-    border-radius: 360px;
-}
- 
-a{
-    border: 2px solid black;
-    background-color: chocolate;
-    border-radius: 30px;
-    padding: 20px;
     text-decoration: none;
     color: black;
+  }
+
+.apresentacao {
+        background-color: sandybrown;
+        height: 100vh;
+        width: 100vw;
+        margin: 0 auto;
+        box-sizing: border-box;
+        max-height: 130px;
+                }
+
+.apresentacao-titulo {
+        font-size: 20px;
+        font-family: cursive;
+        font-weight: 900;
+        color: rgb(7, 7, 7);
+        text-align: center;
+        margin: 0 auto;
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+        padding: 10px;
+                        }
+
+.apresentacao-paragrafo {
+        text-align: center;
+        font-size: 20px;
+        display: block;
+                            }
+
+.topo-catalogo {
+        background-image: url(imagens/Glicerinado\ com\ oleo\ de\ lavanda.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
+        height: 450px;
+                   }
+
+.lavanda, .camomila, .pimenta, .vela, .slogan {
+        background-color: sandybrown;
+        height: 500px;
+        padding-left: 50px;
+        padding-right:50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+        display: flex;
+        }
+
+h3 {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        color: rgb(7, 7, 7);
+        display: flex;
+        width: 100%;
+        text-align: right;
+        box-sizing: border-box;
+       }
+
+p {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(7, 7, 7);
+        display: flex;
+        width: 100%;
+        text-align: justify;
+        font-style: italic;
+        box-sizing: border-box;
+    }
     
-}
+ul{
+        text-align: right;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+img {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 150px;
+    padding: 25px;
+    box-shadow: -5px -5px 8px 8px;
+    border: 5px solid black;
+    }
+
+span {
+        font-weight: 900;
+        font-style: italic;
+        text-decoration: underline;
+         }
+
+.imagem-camomila { 
+    background-image: url(imagens/Sabonete\ glicerinado\ de\ camomila.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+                  }
+
+.imagem-pimenta {
+    background-image: url(imagens/glicerinado\ com\ oleo\ de\ pimenta.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+                 }
+
+.imagem-vela {
+    background-image: url(imagens/sabonete\ esponja.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+              }
+
+.imagem-slogan {
+    background-image: url(imagens/sabonetes\ folhas.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+                }
+
+.slogan-img{
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+    left: 300px;
+    right: 300px;
+    box-sizing: border-box
+            }
+
+
+        
+        
